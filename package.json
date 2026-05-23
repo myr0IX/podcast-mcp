@@ -1,0 +1,23 @@
+{
+  "name": "podcast-mcp",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Remote MCP server that turns a narration script into a downloadable MP3 podcast (Edge TTS, free).",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "tsx watch src/server.ts"
+  },
+  "dependencies": {
+    "@andresaya/edge-tts": "^1.8.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+dist
+episodes/*.mp3
+*.log
